@@ -38,9 +38,9 @@ class SubActivity : AppCompatActivity() {
             replace(R.id.titleFrame, title)
             commit()
         }
-        override fun onResume() {
-            super.onResume()
-            title.setTitle("サブ画面")
-        }
+    }
+    override fun onResume() {
+        super.onResume()
+        title.setTitle("サブ画面")
     }
 }
